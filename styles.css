@@ -1,0 +1,111 @@
+.circular--landscape 
+{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--landscape img 
+{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+.circular
+{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular img 
+{
+    width: auto;
+    height: 100%;
+}
+
+.mid
+{
+    text-align: center;
+}
+
+.sec2
+{
+    max-width:100%;
+    height:auto;
+}
+
+.sec3
+{
+    max-width:120%;
+    height:auto;
+}
+
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 40px;
+  text-align: left;
+  font-size: 100%;
+}
+
+.bold{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.opacity{
+    opacity: 0.9
+}
+
+.lighter{
+    font-weight: lighter
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.right{
+    text-align: right;
+}
+
+.three {
+  object-fit: cover;
+  width: 480px;
+  height: 480px;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./Site\ Files/13.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

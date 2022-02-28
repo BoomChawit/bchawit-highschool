@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script>
+            function formSubmit() {
+                document.forms["myForm"].submit();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid p-3 mb-2 bg-dark text-white">
+            <br>
+            <div class = "container">
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <h4>Chawit Kaewnuratchadasorn</h4>
+                        <p class = "lighter">Engineer-Researcher-Programmer-Designer</p>
+                    </div>
+                    <div class="col-7 right ml-auto">
+                        <br>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <a class="btn btn-dark" href="index.html" role="button">Home</a>
+                            <a class="btn btn-dark" href="achievement.html" role="button">Achievements</a>
+                            <a class="btn btn-dark" href="research.html" role="button">Research</a>
+                            <a class="btn btn-dark" href="activities.html" role="button">Activites</a>
+                            <a class="btn btn-dark" href="contact.html" role="button">Contact</a>
+                            <a class="btn btn-dark" href= "https://www.facebook.com/boomchawit/" role="button">
+                                <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-success">Enquiry</button>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="mid">
+                <h1>Any questions?</h1><br><br><br><br>
+                <form name="myForm" action="/action_page.php" method="get">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">E-Mail:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <a class="btn btn-success" role="button" onclick="formSubmit()" value="Send form data!">Submit</a>
+                </form>
+                <br><br><br><br>
+            </div>
+            <div class = "mid">
+                <br><br>
+                <h4>Chawit Kaewnuratchadasorn</h4>
+                <br>
+                <div class = "lighter" style = "font-size: 80%">
+                    <p>boomchawit.2203@gmail.com</p>
+                    <p>+81 80 4578 7310</p>
+                    <p>143 Soi 5 Rajyindee road, Hat Yai, Songkhla 90110</p><br>
+                    <a class="btn btn-dark" href= "https://www.facebook.com/boomchawit/" role="button">
+                        <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                    </a>
+                    <br><br>
+                    <p>Copyright 2020 © BoomChawit</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
